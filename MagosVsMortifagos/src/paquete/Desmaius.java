@@ -2,7 +2,6 @@ package paquete;
 
 public class Desmaius implements Hechizo {
 
-	@Override
 	public void ejecutar(Personaje lanzador, Personaje objetivo) {
 		if (lanzador.armado == true)
 			if (objetivo.protegido == false) {
